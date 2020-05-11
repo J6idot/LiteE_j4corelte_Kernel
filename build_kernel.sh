@@ -7,7 +7,7 @@ OUT_DIR=out
 # ex)CROSS_COMPILE={android platform directory you downloaded}/android/prebuilt/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 COMMON_ARGS="-C $(pwd) O=$(pwd)/${OUT_DIR} ARCH=arm CROSS_COMPILE=arm-linux-androideabi- KCFLAGS=-mno-android"
 
-export PATH=/home/j6idot/arm-linux-androideabi-4.9/bin:$PATH
+export PATH=/home/j6idot/ToolChains/arm-linux-androideabi-4.9/bin:$PATH
 export ARCH=arm
 export LOCALVERSION=-LiteE_j4corelte_Kernel
 
